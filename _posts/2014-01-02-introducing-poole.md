@@ -1,42 +1,21 @@
 ---
 layout: post
-title: Introducing Poole
+title: Uma análise de grupos de pesquisa trabalhando com veículos autônomos em LatAm
 ---
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+Muitas universidades e institutos na América Latina trabalham com o desenvolvimento de veículos autônomos, especialmente drones e robôs. Este mapeamento serve para navegar entre possíveis parceiros para o CLARA na indústria acadêmica.
 
 -----
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.
+Para localizar possíveis parceiros para o CLARA, realizamos uma ampla busca em largura de artigos científicos que foram publicados e mapeados pelo Scopus. Aplicamos, então, diversos procedimentos de ciência de dados para agregar os dados em um mapa de Choropleth, mostrando a densidade por cada região, e assim alcançando os grupos destas universidades-chave que podem contribuir com a pesquisa na América Latina.
 
-There are currently two themes built on Poole:
+O mapeamento aconteceu aplicando a Query abaixo no Scopus:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+{% highlight js %}
+(TITLE-ABS-KEY(ADAS) OR TITLE-ABS-KEY("autonomous driving") OR TITLE-ABS-KEY("self-driving cars"))
+{% endhighlight %}
 
-### What's included
+### Onde na América Latina é realizada pesquisa de autonomia veicular?
 
-Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it, includes the following:
-
-* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404.html), [RSS feed]({{ site.baseurl }}/atom.xml), posts, and [example page]({{ site.baseurl }}/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
-
-Additional features are available in individual themes.
-
-### Browser support
-
-Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-Poole is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/poole">GitHub repository</a> for downloads, bug reports, and features requests.
-
-Thanks!
-
-<iframe src="largest_countries.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="public/largest_countries.html" width="100%" height="500px" frameborder="0"></iframe>
