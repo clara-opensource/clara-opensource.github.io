@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               CLARA
+tagline:             Centro Latinoamericano de Referência em Autonomia Veicular
+url:                 http://clara-opensource.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             http://clara-opensource.github.io
 
 # Assets
 #
@@ -20,11 +20,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              CLARA
+  url:               http://clara-opensource.github.io
+  email:             clara@cin.ufpe.br
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              http://clara-opensource.github.io
