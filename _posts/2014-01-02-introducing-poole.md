@@ -38,3 +38,5 @@ Poole and its themes are by preference a forward-thinking project. In addition t
 Poole is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/poole">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+
+<iframe src="largest_countries.html" width="100%" height="500px" frameborder="0"></iframe>
